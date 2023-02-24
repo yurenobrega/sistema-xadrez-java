@@ -23,8 +23,8 @@ public class PartidaXadrez {
 	}
 
 	private void configuraçaoInicial() {
-		tabuleiro.colocarPeça(new Torre(tabuleiro, Cor.BRANCO), new Posiçao(2, 1));
-		tabuleiro.colocarPeça(new Rei(tabuleiro, Cor.PRETO), new Posiçao(0, 4));
+		tabuleiro.colocarPeça(new Torre(tabuleiro, Cor.BRANCO), new Posiçao(0, 4));
+		tabuleiro.colocarPeça(new Rei(tabuleiro, Cor.PRETO), new Posiçao(2, 1));
 		tabuleiro.colocarPeça(new Rei(tabuleiro, Cor.BRANCO), new Posiçao(7, 4));
 	}
 
